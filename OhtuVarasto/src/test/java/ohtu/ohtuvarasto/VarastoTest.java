@@ -92,8 +92,8 @@ public class VarastoTest {
     
     @Test
     public void otaMiinusVarastosta() { 
-        double vanhasaldo = 100; // Replace varasto.getSaldo()
-        varasto.otaVarastosta(0); // MUUTA -1:SEKSI! RIKOTTU TESTI
+        double vanhasaldo = varasto.getSaldo();
+        varasto.otaVarastosta(-1);
         
         assertEquals(vanhasaldo, varasto.getSaldo(), vertailuTarkkuus);
     }
