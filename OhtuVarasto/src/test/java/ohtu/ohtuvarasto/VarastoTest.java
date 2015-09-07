@@ -95,7 +95,7 @@ public class VarastoTest {
         double vanhasaldo = varasto.getSaldo();
         varasto.otaVarastosta(-1);
         
-        assertEquals(vanhasaldo, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(-1, varasto.getSaldo(), vertailuTarkkuus); //replace -1 with vanhasaldo
     }
     
     @Test
