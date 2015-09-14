@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 ALKUEDITTI tositarkea tekstitiodosto tama on joo bro.
+=======
+tositarkea tekstitiodosto tama on joo bro. LOPPUEDITOINTI
